@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #D485E6, #C33FE0);
+    }
+
+header {
+    background-color: #E685E1;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav > a {
+    color: rgb(85, 84, 84);
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /*Arrendodar as pontas da caixa*/
+    box-shadow: 5px 5px 5px #571d63a1; /*Sombra, pra direita, pra baixo, espalhamento, transparência. Foi usada uma cor do degradê e arrastada pra baixo pra poder usar a monocromia, nesse caso da sombra, também foi usada trasparência*/
+    width: 600px;
+    padding: 10px; /*Acochoamento*/
+    margin: auto; /*Pra centralizar*/
+}
+
+h1 {
+    color: #262626;
+    text-align: center;
+    text-shadow: 1px 1px 2px #1a1a1a9a;
+}
+
+h2 {
+    color: #868282;
+}
+
+p {
+    text-align: justify;
+}
